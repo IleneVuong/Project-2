@@ -1,0 +1,16 @@
+body {
+    background-color:#E7E1DF ;
+}
+
+.nav-bar,
+.nav-selection {
+    list-style: none;
+    text-decoration:none;
+    display:flex;
+    justify-content:space-between
+}
+
+a {
+    text-decoration: none;
+    color:#066D99;
+}
