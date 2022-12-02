@@ -84,3 +84,18 @@ footer h2 {
     font-weight: normal;
     font-size: 3rem;
 }
+
+.flexDaddy {
+    display: flex;
+    width: 48%;
+}
+
+.oneHundredHeight {
+    height: 100vh;
+    width: 48%;
+}
+
+.sectionA {
+    display: flex;
+    justify-content: space-between;
+}
