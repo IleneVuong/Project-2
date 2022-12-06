@@ -57,9 +57,26 @@ a {
     color:#066D99;
 }
 
+.sectionA{
+    display: flex;
+}
+
 .sectionA-text {
     background-color: #5D806F;
     color: #E7E1DF;
+    width: 50%;
+}
+
+.sectionA-text>p{
+    font-family:'Arya';
+}
+
+.sectionA-img{
+    width: 50%;
+}
+
+.sectionA-img>img{
+    width: 100%;
 }
 
 .sectionA-text > h2 {
@@ -70,7 +87,7 @@ a {
 }
 
 .sectionA-text > p {
-    font-size: 28px;
+    font-size: 2vh;
     line-height: 2;
     margin: 3%;
 }
@@ -129,4 +146,65 @@ footer h2 {
 .sectionA {
     display: flex;
     justify-content: row;
+}
+
+.GetInvolved {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    width: 30%;
+    justify-content: space-between;
+}
+.image>img{
+    width: 100%;
+    height: 20vh;
+
+
+}
+
+
+/*footer*/
+.topft{
+    display: flex;
+}
+.topft>h2{
+    width: 70%;
+}
+.topft>nav{
+    width: 30%;
+}
+
+.ftcont{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ftcont>img{
+    width: 30%
+}
+
+.ftlogo{
+    width: 100%;
+}
+
+
+.BottomRightCorner{
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.ftcart{
+    width: 100%;
+}
+
+.linklst{
+    width: 40%;
+}
+
+
+.linklst{
+    
 }
