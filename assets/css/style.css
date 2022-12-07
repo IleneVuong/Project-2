@@ -83,7 +83,7 @@ a {
     font-size: 75px;
     margin: 1%;
     text-align: center;
-    /**font-family: ;**/
+    font-family: 'Barlow condensed';
 }
 
 .sectionA-text > p {
@@ -104,6 +104,33 @@ a {
     justify-content: center;**/
 }
 
+.sectionB {
+    display: flex;
+}
+
+.sectionB-text {
+    font-family:'Arya';
+    color: #524E43;
+    width: 50%;
+}
+
+.sectionB-h2 {
+    font-size: 75px;
+    margin: 1%;
+    text-align: center;
+    font-family: 'Barlow condensed';
+    color: #524E43;
+}
+
+.sectionB-img>img{
+    width: 50%;
+}
+
+.sectionB-text > p{
+    font-size: 2vh;
+    line-height: 2;
+    margin: 3%;
+}
 
 
 .hero-img {
