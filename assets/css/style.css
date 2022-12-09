@@ -287,4 +287,9 @@ footer h3 {
 
 .bottomrightp {
     padding-left:18vw;
+    padding-top:16vh;
+}
+
+.bottomrightp > p {
+    font-size:20px;
 }
