@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arya:wght@400;700&family=Barlow+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arya:wght@400;700&family=Barlow+Condensed:wght@600&family=Barlow:wght@700&display=swap');
 
 *,
 *::after,
@@ -59,6 +59,7 @@ a {
 
 .sectionA{
     display: flex;
+    margin:10%;
 }
 
 .sectionA-text {
@@ -83,7 +84,7 @@ a {
     font-size: 75px;
     margin: 1%;
     text-align: center;
-    font-family: 'Barlow condensed';
+    font-family: 'Barlow';
 }
 
 .sectionA-text > p {
@@ -210,6 +211,10 @@ footer h2 {
     width: 30%;
 }
 
+footer h3 {
+    font-family:'arya' sans-serif;
+    font-size:40px;
+}
 .ftcont{
     display: flex;
     justify-content: space-around;
@@ -224,16 +229,19 @@ footer h2 {
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+    font-family:'arya', sans-serif;
 }
 
 .ftcart{
-    width: 100%;
+    width: 45%;
+    height: 30%;
+    margin-left:15vw;
+    margin-bottom:1vw;
 }
 
 .linklst{
     width: 40%;
 }
-
 
 .nav-selection {
     display: flex;
@@ -257,4 +265,26 @@ footer h2 {
 .logo a {
     display: flex;
     align-items: center;
+}
+
+.linklisth3 {
+    color: #3EAA77;
+}
+
+.Linklst {
+    font-family: 'Arya', sans-serif;
+    padding-right:15vw;
+    padding-top:3vw;
+}
+
+.logoh2div {
+    padding-left:4vw;
+}
+
+.nav-selection {
+    padding-right:3vw;
+}
+
+.bottomrightp {
+    padding-left:18vw;
 }
