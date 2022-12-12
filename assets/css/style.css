@@ -89,7 +89,7 @@ a {
 
 .sectionA-text > p {
     font-size: 2vh;
-    line-height: 2;
+    line-height:2;
     margin: 3%;
 }
 
@@ -190,7 +190,152 @@ a {
 
 }
 
+/* the problem */
 
+.hero-img2 {
+    background-image: url("../img/trash.jpg");
+}
+
+.the-prob-h1 {
+    background-color:#524e4394;
+    padding:37vh 27vw;  
+}
+
+.the-facts-h2 h2{
+    font-family:'Barlow', sans-serif;
+    text-align:center;
+    margin-top:5%;
+    font-size:90px;
+    font-weight:bold;
+    color:#066D99;
+}
+
+.flex1 {
+    margin-top:5%;
+}
+
+.flex3 {
+    margin-top:5%;
+}
+
+.facts-flex {
+    display:flex;
+    flex:wrap;
+    justify-content:space-between;
+}
+
+.facts-content {
+    width:70%;
+    margin-left:10%;
+    font-family:'Arya', serif;
+    font-weight:bold;
+    letter-spacing:-.02em;
+    line-height:63px;
+    font-size:35px;
+    color:#066D99;
+    padding-top:8vh;
+}
+
+.facts-img {
+    width:30%;
+    margin-right:10%;
+}
+
+.facts-img2 {
+    margin-right:3%;
+    margin-left:10%;
+}
+
+.facts-img3 {
+    height:40vh;
+    padding-right:6vw;
+}
+
+/* essence of time */
+.time-flex {
+    display:flex;
+    flex:wrap;
+    background-color:#B5CEDA;
+    margin-left:10%;
+    margin-right:10%;
+    justify-content:space-between;
+    height:78vh;
+    margin-top:10%;
+}
+
+.time-content {
+    width:60%;
+    margin-left:5%;
+}
+
+.time-content h2 {
+    font-family:'Barlow', serif;
+    font-size:80px;
+    letter-spacing:-.02em;
+    line-height:108px;
+}
+
+.time-content p {
+   font-family:'Arya', serif;
+   font-weight:bold;
+   color:#066D99;
+   letter-spacing:-0.02em;
+   line-height:63px;
+   font-size:35px;
+}
+
+/* affects */
+
+.affects-flex {
+    display:flex;
+    flex:wrap;
+    justify-content:space-between;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:10%;
+}
+
+.affects-content h2 {
+    font-family:'Barlow', serif;
+    font-weight:bold;
+    text-align: center;
+    letter-spacing:-.02em;
+    font-size:40px;
+    margin-bottom:5%;
+}
+
+.affects-content {
+    width:30%;
+}
+
+.affectsp {
+    font-family:'Arya', sans-serif;
+    font-size:28px;
+    color:#524E43;
+    letter-spacing:-.02em;
+    background:#FFFFFF6E;
+    font-weight:700;
+}
+
+.health,
+.climate-change,
+.wildlife {
+    height:130vh;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.img-flex {
+    display:flex;
+    flex:wrap;
+    justify-content:space-between;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.img-flex > img {
+    width:30%;
+}
 /*footer*/
 
 footer {
