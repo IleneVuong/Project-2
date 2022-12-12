@@ -193,12 +193,7 @@ a {
 /* the problem */
 
 .hero-img2 {
-    background-image: url("../img/trash.jpg");
-}
-
-.the-prob-h1 {
-    background-color:#524e4394;
-    padding:37vh 27vw;  
+    background-image: url("../img/trash-hero.png");
 }
 
 .the-facts-h2 h2{
@@ -259,7 +254,6 @@ a {
     margin-left:10%;
     margin-right:10%;
     justify-content:space-between;
-    height:78vh;
     margin-top:10%;
 }
 
@@ -272,7 +266,7 @@ a {
     font-family:'Barlow', serif;
     font-size:80px;
     letter-spacing:-.02em;
-    line-height:108px;
+    line-height:180px;
 }
 
 .time-content p {
@@ -280,7 +274,7 @@ a {
    font-weight:bold;
    color:#066D99;
    letter-spacing:-0.02em;
-   line-height:63px;
+   line-height:100px;
    font-size:35px;
 }
 
@@ -320,9 +314,13 @@ a {
 .health,
 .climate-change,
 .wildlife {
-    height:130vh;
     margin-left:5%;
     margin-right:5%;
+}
+
+.climate-change,
+.health {
+    height:505px;
 }
 
 .img-flex {
@@ -336,6 +334,144 @@ a {
 .img-flex > img {
     width:30%;
 }
+
+/*page 3*/
+.hero-img3 {
+    background-image:url("../img/change-hero.png");
+}
+
+.reducing-waste {
+    text-align:center;
+    margin-top:5%;
+}
+
+.reducing-waste h2 {
+    font-family:'Barlow', sans-serif;
+    color:#524E43;
+    font-size:80px;
+    font-weight:bold;
+    letter-spacing: -.0.2em;
+}
+
+.reducing-waste h3 {
+    font-family:'Arya', sans-serif;
+    font-weight:700;
+    font-size:40px;
+    color:#524E43;
+}
+
+.waste-flex {
+    display:flex;
+    flex:wrap;
+    justify-content:space-between;
+    margin-right:10%;
+    margin-left:10%;
+}
+
+.square {
+    width:32%;
+    background-color:#FFFFFF6E;
+    height:45vh;
+    margin-top:3%;
+}
+
+.square h4 {
+    color:#3EAA77;
+    font-family:'Arya', sans-serif;
+    font-size:40px;
+    font-weight:700;
+    text-align: center;
+}
+
+.square p {
+    font-family:'Arya', sans-serif;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:-.02em;
+    margin-left:8%;
+    margin-right:8%;
+    color: #524E43;
+}
+
+.square-img {
+    background-image:url("../img/penuts.png");
+    background-repeat:none;
+    background-size:cover;
+    background-position-x:center;
+}
+
+/* recycling portion */
+
+.recycle-flex {
+    margin-top:10%;
+}
+
+.cycle-content,
+.cycle-img {
+    width:50%;
+}
+
+.colorcans-img {
+    width:100%;
+}
+
+.world-cycle-img {
+    width:50%;
+    float:right;
+    margin-right:5%;
+}
+
+.cycle-content h2 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    text-align: center;
+    color: #78B498;
+}
+
+.cycle-content p {
+    font-family:'Arya', sans-serif;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:-.02em;
+    padding-top:5%;
+    color: #524E43;
+    padding-right:3%;
+}
+
+/* color cans recycle section*/
+
+.can {background:#F5E65BA6;}
+.paper {background:#8DC4EC;}
+.glass {background:#5DC091;}
+.plastic {background:#EE5757B0;}
+
+.square2 {
+    width:20%;
+    height:30vh;
+    text-align: center;
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
+.square2 p {
+    padding-top:12vh;
+    font-family:'Barlow', sans-serif;
+    font-size: 45px;
+    color: rgba(146, 146, 146, 0.86);
+}
+
+.compost {
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.compost-img {
+    width:100%;
+}
+
 /*footer*/
 
 footer {
@@ -349,9 +485,11 @@ footer h2 {
 .topft{
     display: flex;
 }
+
 .topft>h2{
     width: 70%;
 }
+
 .topft>nav{
     width: 30%;
 }
