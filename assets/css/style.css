@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width:768px) {
+    .facts-content {
+
+    }
+}
+
 body {
     background-color:#E7E1DF ;
 }
@@ -88,55 +94,67 @@ a {
 }
 
 .sectionA-text > p {
-    font-size: 2vh;
+    font-size: 2em;
     line-height:2;
     margin: 3%;
 }
 
 .sectionA-button {
     background-color: #E9D091;
-    width: 16%;
+    width: 18%;
     text-align: center;
-    height: 3.2vh;
     font-size: 25px;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    /**display: flex;
-    justify-content: center;**/
+    float:right;
+    margin-right:10%;
+}
+
+.sectionA-button a {
+    font-family:'Arya', sans-serif;
+    color:#5D806F;
+}
+
+.sectionA-button a:hover {
+    color:#1d201ebe;
+    transition: all 250ms ease;
+}
+
+.sectionA-button:hover {
+    background-color:#d7c188;
+    transition: all 250ms ease;
 }
 
 .sectionB {
     display: flex;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
 }
 
 .sectionB-text {
     font-family:'Arya';
     color: #524E43;
     width: 50%;
-    margin-left:5%;
 }
 
 .sectionB-h2 {
     font-size: 75px;
     margin: 1%;
     text-align: center;
-    font-family: 'Barlow condensed';
+    font-family: 'Barlow', serif;
     color: #524E43;
 }
 
 .sectionB-img{
-    width: 50%;
-    margin-right:5%;
+    width:50%;
 }
 
 .sectionB-img>img {
     width:100%;
-    height:70vh;
 }
 
 
 .sectionB-text > p{
-    font-size: 2vh;
+    font-size: 1.8em;
     line-height: 2;
     margin: 3%;
 }
@@ -200,7 +218,7 @@ a {
     font-family:'Barlow', sans-serif;
     text-align:center;
     margin-top:5%;
-    font-size:90px;
+    font-size:6rem;
     font-weight:bold;
     color:#066D99;
 }
@@ -225,7 +243,6 @@ a {
     font-family:'Arya', serif;
     font-weight:bold;
     letter-spacing:-.02em;
-    line-height:63px;
     font-size:35px;
     color:#066D99;
     padding-top:8vh;
@@ -329,10 +346,12 @@ a {
     justify-content:space-between;
     margin-left:10%;
     margin-right:10%;
+    margin-bottom:10%;
 }
 
 .img-flex > img {
     width:30%;
+    opacity:.88;
 }
 
 /*page 3*/
@@ -427,7 +446,6 @@ a {
     font-weight: 700;
     font-size: 80px;
     line-height: 96px;
-    text-align: center;
     color: #78B498;
 }
 
@@ -453,7 +471,7 @@ a {
     height:30vh;
     text-align: center;
     margin-top:3%;
-    margin-bottom:3%;
+    margin-bottom:10%;
 }
 
 .square2 p {
@@ -466,10 +484,24 @@ a {
 .compost {
     margin-left:10%;
     margin-right:10%;
+    display:flex;
+    margin-bottom:5%;
 }
 
 .compost-img {
     width:100%;
+}
+
+.compost p {
+    position:absolute;
+    margin-top:8vh;
+    margin-right:20%;
+    margin-left:10%;
+    font-family:'Arya', sans-serif;
+    font-size:2rem;
+    background-color:#4F4F4FAB;
+    color:#FFFFFF;
+    padding:3%;
 }
 
 /*footer*/
@@ -561,7 +593,8 @@ footer h3 {
 }
 
 .logoh2div {
-    padding-left:4vw;
+    padding-left:5vw;
+    margin-top:3%;
 }
 
 .nav-selection {
@@ -575,4 +608,97 @@ footer h3 {
 
 .bottomrightp > p {
     font-size:20px;
+}
+
+@media only screen and (max-width:769px) {
+    .sectionA {
+        height:auto;
+    }
+
+    .sectionA-text,
+    .sectionB-text {
+        font-size:.77vw;
+    }
+
+    .sectionA-text h2,
+    .sectionB-h2, {
+        font-size:7vw;
+    }
+
+    .the-facts-h2 h2 {
+        font-size:7vw;
+    }
+
+    .hero-img h1 {
+        font-size:10vw;
+    }
+
+    .sectionA-button a {
+        font-size:2vw;
+    }
+
+    .sectionA-button {
+        width:15vw;
+        font-size:0;
+    }
+
+    .nav-items,
+    .Linklst h3 {
+        font-size:3vw;
+    }
+
+    .logo h2 {
+        font-size:5vw;
+    }
+
+    .Linklst p,
+    .facts-content {
+        font-size:2.5vw;
+    }
+
+    .facts-img {
+        width:38vw;
+    }
+
+    .time-img {
+        width:25vw;
+    }
+
+    .time-content p {
+        font-size:2.5vw;
+        line-height:2.5;
+    }
+
+    .time-content h2 {
+        font-size:5vw;
+        line-height:2;
+    }
+    
+    .facts-img3 {
+        height:auto;
+    }
+
+/* Footer */
+    .ftcont >img {
+        width:20vw;
+        margin-right:2%;
+    }
+
+    .bottomrightp {
+        padding:0;
+        padding-top:7vh;
+    }
+
+    .bottomrightp p {
+        font-size:2vw;
+    }
+
+    .ftcart {
+        margin:0;
+        width:20vw;
+    }
+
+    .Linklst {
+        padding-right:0;
+    }
 }
