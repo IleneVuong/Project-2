@@ -751,7 +751,7 @@ footer h3 {
 /* Footer */
     .ftcont >img {
         padding-top:4vw;
-        width:18vw;
+        width:17vw;
         margin-left:7vw;
         height:21vw;
     }
@@ -794,8 +794,7 @@ footer h3 {
     }
 
     .logo img {
-        /* width:5vw;
-        height:5vh; */
+        max-width:1rem;
     }
 
     .nav-items-ft h2 {
