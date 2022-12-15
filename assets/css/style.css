@@ -612,13 +612,19 @@ footer h3 {
         font-size:.77vw;
     }
     
-    .square p,
-    .cycle-content p {
+    .square p {
         font-size:2vw;
     }
 
+    .cycle-content p {
+        padding-top:1vw;
+        line-height:3.2vw;
+        padding-right:.5vw;
+        font-size:2.1vw;
+    }
+
     .cycle-img {
-        width:60vw;
+        width:40vw;
     }
 
     .sectionB-h2,
@@ -632,7 +638,7 @@ footer h3 {
     }
 
     .cycle-content h2{
-        font-size:4vw;
+        font-size:5vw;
     }
 
     .hero-img h1 {
@@ -659,7 +665,7 @@ footer h3 {
 
     .square2 p {
         font-size:5vw;
-        padding-top:5vw;
+        padding-top:8.5vw;
     }
 
     .reducing-waste h3 {
@@ -682,6 +688,23 @@ footer h3 {
         width:38vw;
     }
 
+    .facts-img1 {
+        width:30vw;
+        height:18vw;
+    }
+
+    .facts-img2 {
+        width:30vw;
+        height:20vw;
+    }
+
+    .facts-img3{
+        width:25vw;
+        height:20vw;
+    }
+
+    .facts-img2
+
     .time-img {
         width:25vw;
     }
@@ -697,7 +720,8 @@ footer h3 {
     }
 
     .world-cycle-img {
-        width:10vw;
+        width:12vw;
+        margin-right:1vw;
     }
 
     .affects-content h2 {
@@ -705,17 +729,22 @@ footer h3 {
     }
 
     .affectsp {
-        font-size:1.5vw;
+        font-size:2vw;
+        height:53vw;
+        width:25vw;
     }
 
     .reducing-waste h2 {
         font-size:7vw;
     }
 
+    .color-flex {
+        margin-top:4vw;
+    }
 
 /* Footer */
     .ftcont >img {
-        padding-top:2vw;
+        padding-top:3vw;
         /* width:35vw; */
         margin-left:7vw;
         /* height:fit-content; */
@@ -727,7 +756,7 @@ footer h3 {
     }
 
     .BottomRightCorner {
-        padding-left:2vw;
+        padding-left:10vw;
     }
 
     .bottomrightp p {
