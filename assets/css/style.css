@@ -751,9 +751,9 @@ footer h3 {
 /* Footer */
     .ftcont >img {
         padding-top:4vw;
-        /* width:35vw; */
+        width:18vw;
         margin-left:7vw;
-        /* height:fit-content; */
+        height:21vw;
     }
 
     .bottomrightp {
