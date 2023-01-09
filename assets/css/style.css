@@ -612,13 +612,21 @@ footer h3 {
         font-size:.77vw;
     }
     
-    .square p,
-    .cycle-content p {
+    .square p {
         font-size:2vw;
     }
 
+    .cycle-content p {
+        padding-top:1vw;
+        line-height:3.2vw;
+        padding-right:.5vw;
+        font-size:2.1vw;
+    }
+
     .cycle-img {
-        width:60vw;
+        width:40vw;
+        height:50vw;
+        margin-top:1vh;
     }
 
     .sectionB-h2,
@@ -632,7 +640,7 @@ footer h3 {
     }
 
     .cycle-content h2{
-        font-size:4vw;
+        font-size:5vw;
     }
 
     .hero-img h1 {
@@ -656,10 +664,9 @@ footer h3 {
         font-size:3vw;
     }
 
-
     .square2 p {
         font-size:5vw;
-        padding-top:5vw;
+        padding-top:8.5vw;
     }
 
     .reducing-waste h3 {
@@ -672,6 +679,11 @@ footer h3 {
 
     .square h4 {
         font-size:2.8vw;
+        line-height:3.2vw;
+        padding-top:1.5vw;
+        padding-bottom:1.5vw;
+        margin-right:1vw;
+        margin-left:1vw;
     }
 
     .facts-content {
@@ -681,6 +693,23 @@ footer h3 {
     .facts-img {
         width:38vw;
     }
+
+    .facts-img1 {
+        width:30vw;
+        height:18vw;
+    }
+
+    .facts-img2 {
+        width:30vw;
+        height:20vw;
+    }
+
+    .facts-img3{
+        width:25vw;
+        height:20vw;
+    }
+
+    .facts-img2
 
     .time-img {
         width:25vw;
@@ -697,7 +726,8 @@ footer h3 {
     }
 
     .world-cycle-img {
-        width:10vw;
+        width:12vw;
+        margin-right:1vw;
     }
 
     .affects-content h2 {
@@ -705,20 +735,25 @@ footer h3 {
     }
 
     .affectsp {
-        font-size:1.5vw;
+        font-size:2vw;
+        height:53vw;
+        width:25vw;
     }
 
     .reducing-waste h2 {
         font-size:7vw;
     }
 
+    .color-flex {
+        margin-top:4vw;
+    }
 
 /* Footer */
     .ftcont >img {
-        padding-top:2vw;
-        width:35vw;
+        padding-top:4vw;
+        width:17vw;
         margin-left:7vw;
-        height:fit-content;
+        height:21vw;
     }
 
     .bottomrightp {
@@ -727,7 +762,7 @@ footer h3 {
     }
 
     .BottomRightCorner {
-        padding-left:2vw;
+        padding-left:10vw;
     }
 
     .bottomrightp p {
@@ -759,8 +794,7 @@ footer h3 {
     }
 
     .logo img {
-        width:10vw;
-        height:3.5vh;
+        max-width:1.5rem;
     }
 
     .nav-items-ft h2 {
