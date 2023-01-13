@@ -164,6 +164,7 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
+    background-attachment:fixed;
 }
 
 .hero-img h1 {
